@@ -12,11 +12,16 @@ async function main () {
         width: 800, 
         height: 600,
         autoHideMenuBar: true,
+        webPreferences: {
+            //devTools: false,
+        },
         show: false
     })   
 
+    window.webContents.openDevTools();
+    
     window.on("ready-to-show", window.show);
-
+    window.loadFile(path.join(__dirname, "/index.html"));
 
     /*
         UTIL PARA VER A LARGURA DA JANELA
@@ -24,6 +29,5 @@ async function main () {
             console.log(window.getBounds())
         })
     */
-    window.loadFile(path.join(__dirname, "/index.html"));
     
 }
