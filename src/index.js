@@ -8,12 +8,14 @@ let window;
 
 async function main () {
     window = new BrowserWindow({
+        icon: path.join(__dirname, "/icon.ico"),
         width: 800, 
         height: 600,
-        resizable: true,
         autoHideMenuBar: true,
-        maximizable: false 
+        show: false
     })   
+
+    window.on("ready-to-show", window.show);
 
 
     /*
