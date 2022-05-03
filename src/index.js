@@ -3,6 +3,7 @@ const os = require("os");
 const path = require("path");
 require("electron-reload")(__dirname);
 app.whenReady().then(main);
+const { currentLoad, cpu } = require("systeminformation");
 
 let window;
 
@@ -20,9 +21,9 @@ async function main () {
     })   
 
     ipcMain.handle("cpu/get", async (_, data) => {
-        console.log(data);
-
-        return "blablabla"
+        
+        const usage = await currentLoad();
+        return usage;
 
     })
 
