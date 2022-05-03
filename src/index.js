@@ -13,6 +13,7 @@ async function main () {
         width: 700, 
         height: 580,
         autoHideMenuBar: true,
+        frame: false,
         webPreferences: {
             //devTools: false,
             preload: path.join(__dirname + "/backend/preload.js")
