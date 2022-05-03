@@ -39,5 +39,14 @@ async function main () {
             console.log(window.getBounds())
         })
     */
-    
+
 }
+
+ipcMain.on("app/close", () => {
+    app.quit();
+})
+
+ipcMain.on("app/minimize", () => {
+    window.minimize();
+})
+    
