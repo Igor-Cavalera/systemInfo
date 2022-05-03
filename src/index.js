@@ -9,6 +9,7 @@ let window;
 
 async function main () {
     window = new BrowserWindow({
+        transparent: true,
         icon: path.join(__dirname, "/icon.ico"),
         width: 700, 
         height: 580,

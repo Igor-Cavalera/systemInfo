@@ -5,7 +5,15 @@
 }
 
 body {
+    background-color: transparent;
     -webkit-app-region: no-drag;
+}
+
+.main-app {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border-radius: 10px;
 }
 
 nav {
