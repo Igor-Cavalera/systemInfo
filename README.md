@@ -1,4 +1,3 @@
 # Explorando Electron 
 
-![image](https://user-images.githubusercontent.com/66530386/166413678-305b4750-c415-4f60-b30b-bd93f5bedb5f.png)
-
+![image](https://user-images.githubusercontent.com/66530386/166414515-9c232cb4-ae5e-48ce-8494-d2d64dbf6d9d.png)
