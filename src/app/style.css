@@ -16,6 +16,46 @@ body {
     border-radius: 10px;
 }
 
+/* TELA LOADING */
+
+#loading-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading-page {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#install-text {
+    text-align: center;
+    padding: 15vh;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#outer-bar-loading {
+    height: 40px;
+    width: 60vw;
+    margin: 10px auto;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #333333;
+}
+
+#inner-bar-loading {
+    height: 40px;
+    width: 10vw;
+    margin-left: 0;
+    border-radius: 7px;
+    background-color: #333333;
+}
+
+/* CUSTOM TITLE BAR */ 
+
 nav {
     -webkit-app-region: drag;
     width: 100vw;
