@@ -67,9 +67,26 @@ nav {
     background-color: #222;
 }
 
+.left-nav {
+    padding-bottom: 5px;
+}
+
+#nav-left {
+    font-size: 25px;
+    font-weight: 450;
+    align-items: center;
+    padding: 15px 15px 6px 15px;
+    cursor: default;
+}
+
+#nav-left:hover {
+    color: white;
+    background-color: #222;
+}
+
 .nav-link {
     -webkit-app-region: no-drag;
-    padding: 15px;
+    padding: 15px 15px 9px 15px; 
     cursor: pointer;
     font-size: 15px;
 }
