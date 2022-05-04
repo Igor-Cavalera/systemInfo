@@ -71,6 +71,13 @@ nav {
     padding-bottom: 5px;
 }
 
+#title-nav {
+    padding: 0;
+    cursor: default;
+    background-color: #222;
+    color: white;
+}
+
 #nav-left {
     font-size: 25px;
     font-weight: 450;
