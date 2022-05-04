@@ -12,5 +12,4 @@
 
 ## Interface 
 
-![image](https://user-images.githubusercontent.com/66530386/166640746-e0b74a2d-878a-4993-b885-091ef03650b7.png)
-
+![image](https://user-images.githubusercontent.com/66530386/166642474-70faa209-57f8-4afc-abeb-63e7f32b32a9.png)
