@@ -1,4 +1,4 @@
-# Monitor para atividade e processos da CPU - Electron
+# Aplicação - consumo CPU 
 
 <div>
   <p> • Creditos : Canal JSimplified </p>
