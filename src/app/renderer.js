@@ -16,7 +16,6 @@ setInterval(getCpuUsage, 2000);
 
 function updatePercentage(percentage = 0, user, system) {
     const perText = `${percentage.toFixed(1)}%`;
-    console.log(percentage);
     CPU_USED_TEXT.innerText = perText;
     INNER_BAR.style.width = perText;
 }

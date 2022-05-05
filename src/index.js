@@ -16,26 +16,16 @@ async function main () {
         autoHideMenuBar: true,
         frame: false,
         webPreferences: {
-            //devTools: false,
             preload: path.join(__dirname + "/backend/preload.js")
         },
         show: false
     });   
 
     installer();
-
-    //window.webContents.openDevTools();
     
     window.on("ready-to-show", window.show);
     window.loadFile(path.join(__dirname, "/app/index.html"));
-    
-    /*
-    UTIL PARA VER A LARGURA DA JANELA
-    window.on("resized", (e) => {
-        console.log(window.getBounds())
-    })
-    */
-   
+
 }
 
 ipcMain.handle("cpu/get", async (_, data) => {
