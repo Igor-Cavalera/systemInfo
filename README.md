@@ -1,4 +1,5 @@
-# Aplicação - consumo CPU 
+# Aplicação - System Information
+###Retorna em porcentagem o consumo que a CPU 
 
 <div>
   <p> • Creditos : Canal JSimplified </p>
