@@ -1,5 +1,5 @@
 # Aplicação - System Information
-###Retorna em porcentagem o consumo que a CPU 
+### Retorna em porcentagem o consumo que a CPU 
 
 <div>
   <p> • Creditos : Canal JSimplified </p>
@@ -7,7 +7,7 @@
   <a href="https://github.com/tylerlaceby/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 </div>
 
-## Loading Bar 
+## Barra de Carregamento 
   
 ![image](https://user-images.githubusercontent.com/66530386/166632759-3cbc3bf3-36f0-459e-b813-470d04fc3c01.png)
 
