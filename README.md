@@ -1,4 +1,7 @@
 # Aplicação - System Information
+
+``` npm start ```
+
 ### Retorna em porcentagem o consumo que a CPU 
 
 <div>
